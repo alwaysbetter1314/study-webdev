@@ -8,3 +8,7 @@ const getTs = ()=>{
     return time.substr(0,10);//精确到秒
 }
 ```
+## 随机整数[30,50]
+```
+const RandNum = ()=>  parseInt(Math.random()*20)+30
+```
